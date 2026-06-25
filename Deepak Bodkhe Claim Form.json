@@ -1,0 +1,12 @@
+{
+  "claim_id": "",
+  "extraction_method": "error",
+  "confidence_score": 0.0,
+  "fields_extracted": {},
+  "fields_missing": [],
+  "validation_flags": [
+    "Pipeline error: cannot reshape array of size 1220956 into shape (1755,1240,4)"
+  ],
+  "raw_text_snippet": "",
+  "vlm_used": false
+}

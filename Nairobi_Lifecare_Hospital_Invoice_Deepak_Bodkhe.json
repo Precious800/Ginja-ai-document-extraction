@@ -1,0 +1,24 @@
+{
+  "claim_id": "NLH-INV-2026-002",
+  "extraction_method": "pdf_text",
+  "confidence_score": 0.7666666666666667,
+  "fields_extracted": {
+    "claim_id": "NLH-INV-2026-002",
+    "member_id": "1536400",
+    "provider_name": "Nairobi Lifecare Outpatient Invoice Invoice No",
+    "date_of_service": "2026-02-12",
+    "claimed_amount": 9548.97,
+    "invoice_number": "NLH-INV-2026-002"
+  },
+  "fields_missing": [
+    "provider_id",
+    "diagnosis_code",
+    "procedure_code",
+    "currency"
+  ],
+  "validation_flags": [
+    "Duplicate claim_id detected"
+  ],
+  "raw_text_snippet": "Nairobi Lifecare Hospital\nNAIROBI\nLIFECARE\nOutpatient Invoice\nInvoice No: NLH-INV-2026-002\nFull Name: Deepak Bodkhe\nInsurance Member No: 1536400\nHospital No: 800120\nVisit Type: Outpatient\nPhone: -\nDate: 12 Feb 2026\nService Description Amount (KES)\nCorporate Consultation 1750\nH Pylori Stool 3550\nStool for Ova & Cysts 800\nHaemogram - CBC 1450\nGaviscon Syrup 200ml 1179.97\nE-Some 40mg caps 819\nTotal 9548.97\nThis is a system generated invoice. No signature is required.\nThank you for choosing Nairobi ",
+  "vlm_used": false
+}

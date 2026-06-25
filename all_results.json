@@ -1,0 +1,110 @@
+{
+  "Nairobi_Lifecare_Hospital_Invoice_Deepak_Bodkhe.pdf": {
+    "claim_id": "NLH-INV-2026-002",
+    "extraction_method": "pdf_text",
+    "confidence_score": 0.7666666666666667,
+    "fields_extracted": {
+      "claim_id": "NLH-INV-2026-002",
+      "member_id": "1536400",
+      "provider_name": "Nairobi Lifecare Outpatient Invoice Invoice No",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 9548.97,
+      "invoice_number": "NLH-INV-2026-002"
+    },
+    "fields_missing": [
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code",
+      "currency"
+    ],
+    "validation_flags": [
+      "Duplicate claim_id detected"
+    ],
+    "raw_text_snippet": "Nairobi Lifecare Hospital\nNAIROBI\nLIFECARE\nOutpatient Invoice\nInvoice No: NLH-INV-2026-002\nFull Name: Deepak Bodkhe\nInsurance Member No: 1536400\nHospital No: 800120\nVisit Type: Outpatient\nPhone: -\nDate: 12 Feb 2026\nService Description Amount (KES)\nCorporate Consultation 1750\nH Pylori Stool 3550\nStool for Ova & Cysts 800\nHaemogram - CBC 1450\nGaviscon Syrup 200ml 1179.97\nE-Some 40mg caps 819\nTotal 9548.97\nThis is a system generated invoice. No signature is required.\nThank you for choosing Nairobi ",
+    "vlm_used": false
+  },
+  "Nairobi_Lifecare_Hospital_Invoice_Wanjiku_Kamau.pdf": {
+    "claim_id": null,
+    "extraction_method": "pdf_text",
+    "confidence_score": 0.5833333333333334,
+    "fields_extracted": {
+      "member_id": "1538500",
+      "provider_name": "Lifecare Outpatient Invoice Full Name",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 4300.0
+    },
+    "fields_missing": [
+      "claim_id",
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code",
+      "currency",
+      "invoice_number"
+    ],
+    "validation_flags": [
+      "Missing required field: claim_id"
+    ],
+    "raw_text_snippet": "NAIROBI Nairobi Lifecare Hospital\nLIFECARE\nOutpatient Invoice\nFull Name: Wanjiku Kamau\nInsurance Member No: 1538500\nHospital No: 400120\nVisit Type: Outpatient\nPhone: 250781261474\nDate: 12 Feb 2026\nService Description Amount (KES)\nConsultation 1500\nUltrasound Breast 2800\nTotal 4300\nThis is a system generated invoice. No signature is required.\nThank you for choosing Nairobi Lifecare Hospital. Full Name: Wanjiku Kamau Insurance Member No: 1538500 Hospital No: 400120 Visit Type: Outpatient Phone: 25",
+    "vlm_used": false
+  },
+  "Nairobi_Lifecare_Hospital_Invoice_Sharma_Siddharth.pdf": {
+    "claim_id": "NLH-INV-2026-003",
+    "extraction_method": "pdf_text",
+    "confidence_score": 0.7666666666666667,
+    "fields_extracted": {
+      "claim_id": "NLH-INV-2026-003",
+      "member_id": "1536500",
+      "provider_name": "Nairobi Lifecare Outpatient Invoice Invoice No",
+      "date_of_service": "2026-02-12",
+      "claimed_amount": 17000.0,
+      "invoice_number": "NLH-INV-2026-003"
+    },
+    "fields_missing": [
+      "provider_id",
+      "diagnosis_code",
+      "procedure_code",
+      "currency"
+    ],
+    "validation_flags": [
+      "Duplicate claim_id detected"
+    ],
+    "raw_text_snippet": "Nairobi Lifecare Hospital\nNAIROBI\nLIFECARE\nOutpatient Invoice\nInvoice No: NLH-INV-2026-003\nFull Name: Sharma Siddharth\nInsurance Member No: 1536500\nHospital No: 100120\nVisit Type: Dental\nPhone: -\nDate: 12 Feb 2026\nService Description Amount (KES)\nFillings Minor 4000\nFillings Major 12000\nIntra-Oral Xray 1000\nTotal 17000\nThis is a system generated invoice. No signature is required.\nThank you for choosing Nairobi Lifecare Hospital. Full Name: Sharma Siddharth Insurance Member No: 1536500 Hospital N",
+    "vlm_used": false
+  },
+  "Deepak Bodkhe Claim Form.pdf": {
+    "claim_id": "",
+    "extraction_method": "error",
+    "confidence_score": 0.0,
+    "fields_extracted": {},
+    "fields_missing": [],
+    "validation_flags": [
+      "Pipeline error: cannot reshape array of size 1220956 into shape (1755,1240,4)"
+    ],
+    "raw_text_snippet": "",
+    "vlm_used": false
+  },
+  "Sharma Siddharth Claim Form.pdf": {
+    "claim_id": "",
+    "extraction_method": "error",
+    "confidence_score": 0.0,
+    "fields_extracted": {},
+    "fields_missing": [],
+    "validation_flags": [
+      "Pipeline error: cannot reshape array of size 1140408 into shape (1755,1240,4)"
+    ],
+    "raw_text_snippet": "",
+    "vlm_used": false
+  },
+  "claim form Wanjiku Kamua.pdf": {
+    "claim_id": "",
+    "extraction_method": "error",
+    "confidence_score": 0.0,
+    "fields_extracted": {},
+    "fields_missing": [],
+    "validation_flags": [
+      "Pipeline error: cannot reshape array of size 33463512 into shape (6969,4691,4)"
+    ],
+    "raw_text_snippet": "",
+    "vlm_used": false
+  }
+}
