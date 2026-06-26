@@ -1,3 +1,10 @@
+## ▶️ Run the Pipeline
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Precious800/Ginja-ai-document-extraction/blob/main/extraction_pipeline.ipynb)
+
+---
+
+
 # Healthcare Claim Extraction Pipeline
 
 ## Overview
